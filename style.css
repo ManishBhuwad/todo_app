@@ -1,0 +1,36 @@
+
+.screen{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0px;
+    border: 1px solid black;
+    background-color: rgb(14, 103, 141);
+    align-items: center;
+    height: 40px;
+    padding:0 20px;
+    color: white;
+
+}
+
+#todopannel{
+    width: 60%;
+    padding-left: 10px;
+    border: none;
+    background:transparent;
+}
+
+#todopannel:focus{
+    outline: none;
+    
+}
+
+
+.linethrough{
+    text-decoration: line-through;
+    background-color: rgb(30, 120, 120)
+}
+
+.edit-class{
+    outline:"1px solid black";
+    background-color:"white"
+}
